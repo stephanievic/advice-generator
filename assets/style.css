@@ -51,6 +51,24 @@
     margin-top: 20px;
 }
 
-footer {
-    
+.button-container {
+    position: relative;
+}
+
+#generate-ad {
+    background-color: #52ffa8;
+    padding: 12px;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    position: absolute;
+    top: 17px;
+    left: -23px;
+    transition: box-shadow 0.5s;
+    cursor: pointer;
+}
+
+#generate-ad:hover{
+    border-color: #52ffa8; 
+    box-shadow: 0 0 23px #52ffa8;
 }
