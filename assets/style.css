@@ -27,7 +27,6 @@
     gap: 30px;
     border-radius: 15px;
     width: 37%;
-    height: 50%;
 }
 
 #advices > small {
@@ -42,13 +41,14 @@
 #advices > p {
     color: #cee3e9;
     font-weight: 800;
-    font-size: 25px;
+    font-size: 22px;
     text-align: center;
     width: 80%;
 }
 
 #advices > #divider {
     margin-top: 20px;
+    margin-bottom: 0;
 }
 
 .button-container {
@@ -62,7 +62,7 @@
     border: none;
     display: flex;
     position: absolute;
-    top: 17px;
+    top: 8px;
     left: -23px;
     transition: box-shadow 0.5s;
     cursor: pointer;
