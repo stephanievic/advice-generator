@@ -1,3 +1,6 @@
+let id = document.getElementById('id');
+let advice = document.getElementById('adviceP');
+let button = document.getElementById('generate-ad');
 
 function getAPI () {
     const api = fetch('https://api.adviceslip.com/advice');
@@ -6,9 +9,15 @@ function getAPI () {
         .then (response => {
             return response.json();
         })
-        .then (response => {
-            console.log (response);
-            changeAdvice();
-        });
+        .then (changeAdvice);
 }
+
+function changeAdvice(response) {
+    id.textContent = `advice #${response.slip.id}`;
+    advice.textContent = `${response.slip.advice}`
+}
+
+button.addEventListener('click', () => {
+    getAPI();
+})
      
