@@ -12,7 +12,7 @@ Esse projeto de estudo foi desenvolvido a partir do desafio proposto pelo site <
 ## Screenshots
 
 <div style = "display= inline_block">
-  <img align = "center" src = "images/print1.png">
+  <img align = "center" src = "images/print1s.png">
   <img align = "center" src = "images/print2.png">
 </div>
 
